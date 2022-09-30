@@ -1,0 +1,36 @@
+.headerPrincipal .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headerPrincipal-nav {
+	display: flex; 
+}
+
+.rodapePrincipal .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 5%;
+	width: 70%;
+}
+.rodapePrincipal-contatoForm{
+	width: 25%;
+}
+.rodapePrincipal-contatoForm-fieldset{
+	display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+	margin-left: 5%;
+	display: flex;
+	flex-direction: column;
+	height: 260px;
+	flex-wrap: wrap;
+}
