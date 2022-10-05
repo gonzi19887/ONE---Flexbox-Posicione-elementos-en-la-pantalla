@@ -28,9 +28,31 @@
 }
 
 .rodapePrincipal-navMap-list{
-	margin-left: 5%;
 	display: flex;
 	flex-direction: column;
 	height: 260px;
 	flex-wrap: wrap;
 }
+
+.contenidoPrincipal-cursos{
+	display: flex;
+	flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link{
+	display: flex;
+	width: 23%;
+	
+}
+
+/*responsivo*/
+
+
+.headerPrincipal .container{
+	flex-direction: column;
+	align-items: initial;
+	text-align: center;
+}
+.headerPrincipal-nav {
+	flex-direction: column;
+}
+
